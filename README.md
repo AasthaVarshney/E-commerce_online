@@ -37,7 +37,7 @@ This repository hosts the code for a Java e-commerce Website. This application a
     - See schema.sql
 ## Installation & Setup
 # 1.Clone the repository:
-    git clone 
+    git clone https://github.com/Himanshu2k24/E-Commerce_Web.git 
 # 2.Configure database connection:
      -  Open src/main/java/com/user/dao/UserDao.java 
      -  Update the database URL, username, and password in other DAO classes
@@ -48,7 +48,7 @@ This repository hosts the code for a Java e-commerce Website. This application a
     -  Start Tomcat server
 
 # 5. Access the application:
-    http://localhost:8080/e_commricial_website
+    http://localhost:8080/user-web-app 
 
 ## Project Structure
 
@@ -62,7 +62,7 @@ This repository hosts the code for a Java e-commerce Website. This application a
    │   │   │   │   ├── Order/
    │   │   │   │   |  |___ model/
    │   │   │   │   |  |___ dao/
-   │   │   │   │   |___ User/
+   │   │   │   │   |___ Product/
    │   │   │   │   |  |__ model/
    │   │   │   │   |  |__ dao/
    │   │   │   │   ├── User/
